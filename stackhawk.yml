@@ -1,19 +1,14 @@
-# -- stackhawk configuration for swufe.edu.cn --
+# -- stackhawk configuration for xjjtedu.com --
 app:
   # -- An applicationId obtained from the StackHawk platform. --
-  applicationId: b25e5479-db82-400d-88ac-08a95715f311 # (required)
+  applicationId: 3408d014-eb7d-4b16-9d78-a40f1527e8df # (required)
   # -- The environment for the applicationId defined in the StackHawk platform. --
   env: Development # (required)
   # -- The url of your application to scan --
-  host: https://www.swufe.edu.cn # (required)
+  host: https://xjjtedu.com # (required)
 
 
 # -- Customized Configuration for GraphQL/SOAP/OpenAPI, add here --
-  # openApiConf:
-  #   path: /swagger.json # OR...
-#       filePath: openApi.json
-  # autoPolicy: true
-  # autoInputVectors: true
   # Configuration Docs: https://docs.stackhawk.com/hawkscan/configuration/
 
 # -- If Authenticated Scanning is needed, add here --
@@ -23,4 +18,3 @@ app:
 # -- Help Section --
   # Docs: https://docs.stackhawk.com/
   # Contact Support: support@stackhawk.com
-  #
