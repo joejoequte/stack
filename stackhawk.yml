@@ -1,11 +1,11 @@
 # -- stackhawk configuration for xjjtedu.com --
 app:
   # -- An applicationId obtained from the StackHawk platform. --
-  applicationId: 3408d014-eb7d-4b16-9d78-a40f1527e8df # (required)
+  applicationId: fcb2ca83-0260-4ea8-95b1-acd8bcf9f5af # (required)
   # -- The environment for the applicationId defined in the StackHawk platform. --
-  env: Development # (required)
+  env: Production # (required)
   # -- The url of your application to scan --
-  host: https://xjjtedu.com # (required)
+  host: http://www.xjjtedu.com/index.jsp # (required)
 
 
 # -- Customized Configuration for GraphQL/SOAP/OpenAPI, add here --
