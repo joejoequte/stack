@@ -1,11 +1,11 @@
-# -- stackhawk configuration for xjjtedu.com --
+# -- stackhawk configuration for hackerone --
 app:
   # -- An applicationId obtained from the StackHawk platform. --
-  applicationId: fcb2ca83-0260-4ea8-95b1-acd8bcf9f5af # (required)
+  applicationId: de108d74-0731-4e06-8476-37913f64ab37 # (required)
   # -- The environment for the applicationId defined in the StackHawk platform. --
   env: Production # (required)
   # -- The url of your application to scan --
-  host: http://www.xjjtedu.com/index.jsp # (required)
+  host: https://app.frontapp.com # (required)
 
 
 # -- Customized Configuration for GraphQL/SOAP/OpenAPI, add here --
