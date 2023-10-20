@@ -1,11 +1,11 @@
-# -- stackhawk configuration for kiwi --
+# -- stackhawk configuration for superpal --
 app:
   # -- An applicationId obtained from the StackHawk platform. --
-  applicationId: 5090b308-f16d-40f2-aefa-25ae4f6a22fd # (required)
+  applicationId: 5121fba1-5bf3-4d3e-b6e9-fddc86dfe2bc # (required)
   # -- The environment for the applicationId defined in the StackHawk platform. --
-  env: Development # (required)
+  env: Production # (required)
   # -- The url of your application to scan --
-  host: http://www.kiwi.com # (required)
+  host: https://superpal.com # (required)
 
 
 # -- Customized Configuration for GraphQL/SOAP/OpenAPI, add here --
