@@ -1,11 +1,11 @@
 # -- stackhawk configuration for hackerone --
 app:
   # -- An applicationId obtained from the StackHawk platform. --
-  applicationId: de108d74-0731-4e06-8476-37913f64ab37 # (required)
+  applicationId: 0e6f4a7c-17c3-474a-96a1-3485e7756991 # (required)
   # -- The environment for the applicationId defined in the StackHawk platform. --
   env: Production # (required)
   # -- The url of your application to scan --
-  host: https://app.frontapp.com # (required)
+  host: https://api2.frontapp.com # (required)
 
 
 # -- Customized Configuration for GraphQL/SOAP/OpenAPI, add here --
