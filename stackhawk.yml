@@ -1,11 +1,11 @@
-# -- stackhawk configuration for superpal --
+# -- stackhawk configuration for edusrc --
 app:
   # -- An applicationId obtained from the StackHawk platform. --
-  applicationId: 5121fba1-5bf3-4d3e-b6e9-fddc86dfe2bc # (required)
+  applicationId: 406f5793-5ccc-43b4-8c0f-45ae485ee13a # (required)
   # -- The environment for the applicationId defined in the StackHawk platform. --
-  env: Production # (required)
+  env: Development # (required)
   # -- The url of your application to scan --
-  host: https://superpal.com # (required)
+  host: https://smartedu.cn # (required)
 
 
 # -- Customized Configuration for GraphQL/SOAP/OpenAPI, add here --
