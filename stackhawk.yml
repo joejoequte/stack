@@ -1,11 +1,11 @@
-# -- stackhawk configuration for edusrc --
+# -- stackhawk configuration for clubhouseapi --
 app:
   # -- An applicationId obtained from the StackHawk platform. --
-  applicationId: 406f5793-5ccc-43b4-8c0f-45ae485ee13a # (required)
+  applicationId: d4321364-150c-4f9f-88f9-2965a574acd2 # (required)
   # -- The environment for the applicationId defined in the StackHawk platform. --
-  env: Development # (required)
+  env: Production # (required)
   # -- The url of your application to scan --
-  host: https://smartedu.cn # (required)
+  host: https://*.clubhouseapi.com # (required)
 
 
 # -- Customized Configuration for GraphQL/SOAP/OpenAPI, add here --
