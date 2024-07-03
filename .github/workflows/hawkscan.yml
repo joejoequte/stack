@@ -1,15 +1,22 @@
-name: HawkScan
-on:
-  push:
-  pull_request:
-jobs:
-  hawkscan:
-    name: HawkScan
-    runs-on: ubuntu-latest
-    steps:
-      - name: Clone repo
-        uses: actions/checkout@v2
-      - name: Run HawkScan
-        uses: stackhawk/hawkscan-action@v2
-        with:
+name: HawkScan  
+on:  
+  push:  
+  pull_request:  
+jobs:  
+  hawkscan:  
+    name: HawkScan  
+    runs-on: ubuntu-latest  
+    steps:  
+      - name: Setup Java  
+        uses: actions/setup-java@v2  
+        with:  
+          java-version: '17' # 尝试设置Java 17，但这可能不会影响stackhawk/hawkscan-action  
+          distribution: 'temurin' # 使用Temurin（OpenJDK的一个版本）  
+  
+      - name: Clone repo  
+        uses: actions/checkout@v2  
+  
+      - name: Run HawkScan  
+        uses: stackhawk/hawkscan-action@v2  
+        with:  
           apiKey: ${{ secrets.HAWK_API_KEY }}
